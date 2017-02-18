@@ -19,7 +19,7 @@ namespace CoreApiOnion.Api.Mappers
                 NumericalScore = monthlyGrade.NumericalScore,
                 ParameterName = monthlyGrade.ParameterName,
                 StartDate = monthlyGrade.StartDate,
-                EndDate = monthlyGrade.StartDate
+                EndDate = monthlyGrade.EndDate
             };
         }
 
