@@ -10,7 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoreApiOnion", "src\CoreApiOnion\CoreApiOnion.xproj", "{E52ADB77-307F-4F37-896F-ECDB0ACD9876}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoreApiOnion.Api", "src\CoreApiOnion.Api\CoreApiOnion.Api.xproj", "{E52ADB77-307F-4F37-896F-ECDB0ACD9876}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoreApiOnion.Infrastructure", "src\CoreApiOnion.Infrastructure\CoreApiOnion.Infrastructure.xproj", "{1D556699-B645-4B8E-B390-A735E662EFB8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoreApiOnion.Core", "src\CoreApiOnion.Core\CoreApiOnion.Core.xproj", "{F9E3F1C6-CECF-4073-ACAD-11DAA2F6AEB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +26,21 @@ Global
 		{E52ADB77-307F-4F37-896F-ECDB0ACD9876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E52ADB77-307F-4F37-896F-ECDB0ACD9876}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E52ADB77-307F-4F37-896F-ECDB0ACD9876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D556699-B645-4B8E-B390-A735E662EFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D556699-B645-4B8E-B390-A735E662EFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D556699-B645-4B8E-B390-A735E662EFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D556699-B645-4B8E-B390-A735E662EFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E3F1C6-CECF-4073-ACAD-11DAA2F6AEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E3F1C6-CECF-4073-ACAD-11DAA2F6AEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E3F1C6-CECF-4073-ACAD-11DAA2F6AEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E3F1C6-CECF-4073-ACAD-11DAA2F6AEB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E52ADB77-307F-4F37-896F-ECDB0ACD9876} = {B2C212F8-2F49-4CC4-8293-00F3B18B4F06}
+		{1D556699-B645-4B8E-B390-A735E662EFB8} = {B2C212F8-2F49-4CC4-8293-00F3B18B4F06}
+		{F9E3F1C6-CECF-4073-ACAD-11DAA2F6AEB6} = {B2C212F8-2F49-4CC4-8293-00F3B18B4F06}
 	EndGlobalSection
 EndGlobal
