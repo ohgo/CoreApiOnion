@@ -4,8 +4,6 @@
       "version": "1.1.0",
       "type": "platform"
     },
-    "CoreApiOnion.Core": "1.0.0-*",
-    "CoreApiOnion.Infrastructure": "1.0.0-*",
     "Swashbuckle.AspNetCore": "1.0.0-rc1",
     "Microsoft.AspNetCore.Mvc": "1.1.1",
     "Microsoft.AspNetCore.Routing": "1.1.0",
@@ -35,7 +33,9 @@
 
   "buildOptions": {
     "emitEntryPoint": true,
-    "preserveCompilationContext": true
+    "preserveCompilationContext": true,
+    "xmlDoc": true,
+    "nowarn": [ "1591" ]
   },
 
   "runtimeOptions": {
