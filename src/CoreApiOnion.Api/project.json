@@ -32,6 +32,7 @@
   },
 
   "buildOptions": {
+    "debugType": "portable",
     "emitEntryPoint": true,
     "preserveCompilationContext": true,
     "xmlDoc": true,
@@ -46,8 +47,6 @@
 
   "publishOptions": {
     "include": [
-      "wwwroot",
-      "**/*.cshtml",
       "appsettings.json",
       "web.config"
     ]
