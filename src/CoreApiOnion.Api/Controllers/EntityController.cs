@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace CoreApiOnion.Api.Controllers
 {
     [Route("api/[controller]")]
-    public class EntitiyController : Controller
+    public class EntityController : Controller
     {
         private readonly IService _service;
 
-        public EntitiyController(IService service)
+        public EntityController(IService service)
         {
             _service = service;
         }
